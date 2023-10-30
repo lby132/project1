@@ -4,11 +4,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/api/test")
-public class TestController {
+@RequestMapping("menu")
+public class MenuController {
 
-    @RequestMapping("/controller")
-    public String test() {
+    @RequestMapping("/clothes")
+    public String clothes() {
+
         return "ok";
     }
 }
